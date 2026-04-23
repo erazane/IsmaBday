@@ -223,7 +223,7 @@ export default function Card({ onBack }) {
         >
           <div className="absolute inset-0 bg-black/60" onClick={() => setIsZoomed(false)} />
           <motion.img
-            src="/images/collage.jpeg"
+            src="/images/grown.jpeg"
             alt="collage large"
             className="max-w-[92vw] max-h-[88vh] object-contain rounded-lg relative z-50"
             initial={{ scale: 0.9 }}
